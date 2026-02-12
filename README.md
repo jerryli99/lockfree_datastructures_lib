@@ -9,7 +9,7 @@ Hopefully I implemented them right. LOL. This is tricky. Still a lot to learn. P
 ### Other Thoughts
 It seems like when implementing lock free data structures, memory allocation is an issue. Memory allocation will need new/malloc and delete/free. Well, global locks are used for heap coordination, introducing lock contention. Using these functions will defeat the idea of lock free data structures. So, what can we do to solve this blocking behavior?
 
-Since I use C++, which does not have Garbage colleciton, I will need to figure out the memory management part.
+I use C++, which does not have Garbage colleciton, meaning I will need to figure out the memory management part.
 
 1. pre-allocate a large chunk of memory and use lock-free methods to manage individual elements within that pool
 2. Hazard pointers
