@@ -21,6 +21,6 @@ This topic is mental challenging. I need more time to learn about computers.
 For the lib design, I was going to do a policy-based OOP design, but figured I will skip it for now since my codebase is not large.
 
 ### TODO
-Finish implementations
-Fix code bugs since it is not ideal implementation
-Add test files to repo (in progress)
+Finish implementations<br>
+Fix code bugs since it is not ideal implementation<br>
+Add test files to repo (in progress)<br>
